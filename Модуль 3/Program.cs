@@ -7,17 +7,16 @@ namespace Modul__3
         static void Main(string[] args)
 
         {
-            const string MyName = "Sergei";
+            string MyName = "Sergei";
+            byte Age = 38;
+            bool IHavePet = false;
+            double MyShoeSize = 41.5;
 
             Console.WriteLine(MyName);
-            Console.WriteLine("\t Привет Мир");
-            Console.WriteLine("\t Мне 38 лет");
-            Console.WriteLine("\t My name is \n {0}", MyName);
-            Console.WriteLine("\u0040");
-            Console.WriteLine("\x23");
-
-
-            Console.ReadKey( );
+            Console.WriteLine("My ege is " + Age);
+            Console.WriteLine("Do I have a pet? " + IHavePet);
+            Console.WriteLine("My shoe size is " + MyShoeSize);
+           
         }
     }
 }
