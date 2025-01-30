@@ -7,16 +7,20 @@ namespace Modul__3
         static void Main(string[] args)
 
         {
-            string MyName = "Sergei";
-            byte Age = 38;
-            bool IHavePet = false;
-            double MyShoeSize = 41.5;
+            Console.Write("Enter your name: ");
+            var name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            var age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(MyName);
-            Console.WriteLine("My ege is " + Age);
-            Console.WriteLine("Do I have a pet? " + IHavePet);
-            Console.WriteLine("My shoe size is " + MyShoeSize);
-           
+            Console.Write("Your name is {0} and age is {1}", name, age);
+            Console.WriteLine();
+
+            Console.Write("Enter your brite date: ");
+            var britedate = Console.ReadLine();
+
+            Console.Write("Your brite date is {0}", britedate);
+            Console.ReadKey();
+
         }
     }
 }
